@@ -1,4 +1,4 @@
-require_relative './application/delete_me'
+Dir[File.dirname(__FILE__) + '/application/*.rb'].each { |file| require file }
 
 class Application
 
