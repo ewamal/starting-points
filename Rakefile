@@ -1,5 +1,4 @@
 require 'rspec/core/rake_task'
-require 'metric_fu'
 
 desc 'Create tasks to run unit tests'
 
@@ -31,4 +30,4 @@ namespace :coverage do
   end
 end
 
-task :default => ["coverage:unit", "coverage:integration", "metrics:all"]
+task :default => ["coverage:unit", "coverage:integration"]
