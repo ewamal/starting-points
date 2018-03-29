@@ -3,3 +3,4 @@ gem 'rspec'
 gem 'rake'
 gem 'pry-byebug'
 gem 'simplecov', :require => false
+gem 'aruba'
