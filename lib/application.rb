@@ -4,3 +4,15 @@ class Application
   def initialize
   end
 end
+
+class Grid
+  def initialize(arr)
+    @arr = arr
+  end
+end
+
+class Environment
+  def initialize(grid)
+    @grid = grid
+  end
+end
